@@ -1,0 +1,75 @@
+# ============================
+# Python & Virtual Environment
+# ============================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ============================
+# VS Code
+# ============================
+
+.vscode/
+*.code-workspace
+
+# ============================
+# Data & Output Files
+# ============================
+
+# CSV outputs
+*.csv
+
+# If you want to keep some CSV (like final outputs), REMOVE their names below:
+# music_with_clusters.csv
+# Top_Cluster_0.csv
+# Top_Cluster_1.csv
+# Top_Cluster_2.csv
+
+# Large datasets
+*.zip
+*.tar
+*.gz
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# ============================
+# Documents
+# ============================
+
+# Word, PDF, not needed in repo
+*.docx
+*.pdf
+
+# ============================
+# Machine Learning Artifacts
+# ============================
+
+# Model files
+*.h5
+*.hdf5
+*.sav
+*.joblib
+*.weights
+
+# ============================
+# OS Files
+# ============================
+
+Thumbs.db
+ehthumbs.db
